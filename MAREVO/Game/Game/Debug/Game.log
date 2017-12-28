@@ -1,0 +1,187 @@
+﻿Построение начато 29.12.2017 1:08:54.
+     1>Проект "C:\GIT\relise\MAREVO\Game\Game\Game.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Game.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\GIT\relise\MAREVO\SFML-2.3.2\include" /I"C:\Users\Игорь\GMar\MAREVO\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Entity.cpp hero.cpp main.cpp
+         main.cpp
+     1>c:\git\relise\marevo\game\game\map.h(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\git\relise\marevo\game\game\map.h(3): error C2370: HEIGHT_MAP: переопределение; другой класс хранения
+                 c:\git\relise\marevo\game\game\map.h(3): см. объявление "HEIGHT_MAP"
+     1>c:\git\relise\marevo\game\game\map.h(4): error C2370: WIDTH_MAP: переопределение; другой класс хранения
+                 c:\git\relise\marevo\game\game\map.h(4): см. объявление "WIDTH_MAP"
+     1>c:\git\relise\marevo\game\game\map.h(7): error C2369: TileMap: переопределение; различные индексы
+                 c:\git\relise\marevo\game\game\map.h(7): см. объявление "TileMap"
+     1>c:\git\relise\marevo\game\game\map.h(9): error C2078: слишком много инициализаторов
+     1>c:\git\relise\marevo\game\game\map.h(35): error C2084: функция "void randomMapGenerate(void)" уже имеет текст реализации
+                 c:\git\relise\marevo\game\game\map.h(35): см. предыдущее определение "randomMapGenerate"
+     1>c:\git\relise\marevo\game\game\map.h(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\git\relise\marevo\game\game\entity.h(15): error C3646: String: неизвестный спецификатор переопределения
+     1>c:\git\relise\marevo\game\game\entity.h(15): error C3646: name: неизвестный спецификатор переопределения
+     1>c:\git\relise\marevo\game\game\map.h(3): error C2370: HEIGHT_MAP: переопределение; другой класс хранения
+                 c:\git\relise\marevo\game\game\map.h(3): см. объявление "HEIGHT_MAP"
+     1>c:\git\relise\marevo\game\game\map.h(4): error C2370: WIDTH_MAP: переопределение; другой класс хранения
+                 c:\git\relise\marevo\game\game\map.h(4): см. объявление "WIDTH_MAP"
+     1>c:\git\relise\marevo\game\game\map.h(7): error C2369: TileMap: переопределение; различные индексы
+                 c:\git\relise\marevo\game\game\map.h(7): см. объявление "TileMap"
+     1>c:\git\relise\marevo\game\game\map.h(9): error C2078: слишком много инициализаторов
+     1>c:\git\relise\marevo\game\game\map.h(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\git\relise\marevo\game\game\hero.h(12): error C2144: синтаксическая ошибка: перед "void" требуется ";"
+     1>c:\git\relise\marevo\game\game\main.cpp(13): error C2011: Entity: переопределение типа "class"
+                 c:\git\relise\marevo\game\game\entity.h(9): см. объявление "Entity"
+     1>c:\git\relise\marevo\game\game\main.cpp(31): error C2011: Player: переопределение типа "class"
+                 c:\git\relise\marevo\game\game\hero.h(6): см. объявление "Player"
+     1>c:\git\relise\marevo\game\game\main.cpp(101): error C2504: Entity: не определен базовый класс
+     1>c:\git\relise\marevo\game\game\main.cpp(104): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(104): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(104): error C2065: w: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(104): error C2065: h: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(107): error C2614: Enemy: недопустимая инициализация члена: "Entity" не является базовым классом или членом
+     1>c:\git\relise\marevo\game\game\main.cpp(108): error C2065: name: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(109): error C2065: sprite: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(109): error C2228: выражение слева от ".setTextureRect" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>c:\git\relise\marevo\game\game\main.cpp(109): error C2065: w: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(109): error C2065: h: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(110): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(116): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(116): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(116): error C2065: h: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(117): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(117): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(117): error C2065: w: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(121): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(121): error C2065: h: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(122): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(123): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(123): error C2065: w: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(123): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(123): error C2065: sprite: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(123): error C2228: выражение слева от ".scale" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>c:\git\relise\marevo\game\game\main.cpp(124): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(124): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(124): error C2065: sprite: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(124): error C2228: выражение слева от ".scale" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>c:\git\relise\marevo\game\game\main.cpp(131): error C2065: name: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(133): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(134): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(134): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(135): error C2065: sprite: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(135): error C2228: выражение слева от ".setPosition" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>c:\git\relise\marevo\game\game\main.cpp(135): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(135): error C2065: w: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(135): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(135): error C2065: h: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(136): error C2065: health: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(136): error C2065: life: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\main.cpp(217): error C2079: "p" использует неопределенный class "Player"
+     1>c:\git\relise\marevo\game\game\main.cpp(217): error C2078: слишком много инициализаторов
+     1>c:\git\relise\marevo\game\game\main.cpp(217): error C2440: инициализация: невозможно преобразовать "const char [7]" в "int"
+                 Не существует контекста, в котором такое преобразование возможно
+     1>c:\git\relise\marevo\game\game\main.cpp(224): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+     1>c:\git\relise\marevo\game\game\main.cpp(235): error C2228: выражение слева от ".update" должно представлять класс, структуру или объединение
+                 тип: int
+     1>c:\git\relise\marevo\game\game\main.cpp(253): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\git\relise\marevo\game\game\main.cpp(253): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\git\relise\marevo\game\game\main.cpp(257): error C2039: sprite: не является членом "Enemy"
+                 c:\git\relise\marevo\game\game\main.cpp(101): см. объявление "Enemy"
+     1>c:\git\relise\marevo\game\game\main.cpp(258): error C2228: выражение слева от ".sprite" должно представлять класс, структуру или объединение
+                 тип: int
+         hero.cpp
+     1>c:\git\relise\marevo\game\game\map.h(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\git\relise\marevo\game\game\entity.h(15): error C3646: String: неизвестный спецификатор переопределения
+     1>c:\git\relise\marevo\game\game\entity.h(15): error C3646: name: неизвестный спецификатор переопределения
+     1>c:\git\relise\marevo\game\game\hero.h(12): error C2144: синтаксическая ошибка: перед "void" требуется ";"
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2143: синтаксическая ошибка: отсутствие ")" перед "&"
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2530: image: ссылки должны быть инициализированы
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2062: тип "float" не требуется
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2059: синтаксическая ошибка: )
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2143: синтаксическая ошибка: отсутствие ")" перед ","
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2040: image: "Entity" отличается по уровням косвенного обращения от "int &"
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2059: синтаксическая ошибка: )
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\git\relise\marevo\game\game\hero.cpp(4): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>c:\git\relise\marevo\game\game\hero.cpp(12): warning C4551: в вызове функции отсутствует список аргументов
+     1>c:\git\relise\marevo\game\game\hero.cpp(14): error C2065: state: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(14): error C2065: left: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(14): error C2065: speed: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(17): error C2065: state: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(17): error C2065: right: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(17): error C2065: speed: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(20): error C2065: onGround: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(21): error C2065: state: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(21): error C2065: jump: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(21): error C2065: dy: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(21): error C2065: onGround: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(25): error C2065: state: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(25): error C2065: down: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(32): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(32): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(32): error C2065: h: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(33): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(33): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(33): error C2065: w: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(37): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(37): error C2065: h: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(37): error C2065: dy: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(37): error C2065: onGround: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(38): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(38): error C2065: dy: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(39): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(39): error C2065: w: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(40): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(49): error C2065: state: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(49): error C2050: значение выражения для варианта выбора не является целым
+     1>c:\git\relise\marevo\game\game\hero.cpp(51): error C2065: right: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(51): error C2051: значение выражения для варианта выбора не является константой
+     1>c:\git\relise\marevo\game\game\hero.cpp(51): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(51): error C2065: speed: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(52): error C2065: left: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(52): error C2051: значение выражения для варианта выбора не является константой
+     1>c:\git\relise\marevo\game\game\hero.cpp(52): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(52): error C2065: speed: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(54): error C2065: stay: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(54): error C2051: значение выражения для варианта выбора не является константой
+     1>c:\git\relise\marevo\game\game\hero.cpp(55): warning C4060: оператор switch не содержит метку "case" или "default"
+     1>c:\git\relise\marevo\game\game\hero.cpp(56): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(56): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(57): error C2065: dx: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(58): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(58): error C2065: dy: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(59): error C2065: dy: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(60): error C2065: sprite: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(60): error C2228: выражение слева от ".setPosition" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>c:\git\relise\marevo\game\game\hero.cpp(60): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(60): error C2065: w: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(60): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(60): error C2065: h: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(61): error C2065: health: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(61): error C2065: life: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(62): error C2065: isMove: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(62): error C2065: speed: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(63): error C2065: life: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(63): error C2065: x: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(63): error C2065: y: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(63): error C3861: setPlayerCoordinateForView: идентификатор не найден
+     1>c:\git\relise\marevo\game\game\hero.cpp(64): error C2065: dy: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(64): error C2065: dy: необъявленный идентификатор
+     1>c:\git\relise\marevo\game\game\hero.cpp(66): error C2059: синтаксическая ошибка: }
+     1>c:\git\relise\marevo\game\game\hero.cpp(66): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>c:\git\relise\marevo\game\game\hero.cpp(66): error C2059: синтаксическая ошибка: }
+         Entity.cpp
+     1>c:\git\relise\marevo\game\game\map.h(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\git\relise\marevo\game\game\entity.h(15): error C3646: String: неизвестный спецификатор переопределения
+     1>c:\git\relise\marevo\game\game\entity.h(15): error C3646: name: неизвестный спецификатор переопределения
+     1>c:\git\relise\marevo\game\game\entity.cpp(31): fatal error C1075: конец файла обнаружен ранее, чем левая фигурная скобка "{" в "c:\git\relise\marevo\game\game\entity.cpp(3)"
+         Создание кода...
+     1>Построение проекта "C:\GIT\relise\MAREVO\Game\Game\Game.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:02.01
